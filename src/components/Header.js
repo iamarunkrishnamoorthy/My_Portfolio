@@ -14,7 +14,7 @@ const Header = () => {
                     typeback= {60}
                     loop
                 />
-                <a href="#" className="btn-main-offer">Contact Me</a>
+                <a href="#" className="btn-main-offer btn btn-warning">Contact Me</a>
             </div>
         </div>
     )
