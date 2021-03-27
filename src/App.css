@@ -161,9 +161,9 @@ nav ul li {
 
 /* ********************************** About ****************************************** */
 
-.about{
-    margin-top: 175px;
-    margin-bottom: 150px;
+.about {
+    margin-top: 170px;
+    margin-bottom: 175px;
 }
 
 .my_logo {
@@ -177,4 +177,19 @@ nav ul li {
 
 .padding-size {
   padding: 4rem !important;
+}
+
+/* ********************************** Education ****************************************** */
+
+.education-wraper {
+  position: relative;
+  background: url(pencil.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+.edu {
+  padding-top: 175px !important;
 }
