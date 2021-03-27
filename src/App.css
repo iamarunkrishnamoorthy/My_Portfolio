@@ -162,6 +162,19 @@ nav ul li {
 /* ********************************** About ****************************************** */
 
 .about{
-    margin-top: 250px;
-    margin-bottom: 250px;
+    margin-top: 175px;
+    margin-bottom: 150px;
+}
+
+.my_logo {
+  padding-top: 30px;
+  padding-left: 125px;
+}
+
+.rounded-corners {
+  border-radius: 2rem !important;
+}
+
+.padding-size {
+  padding: 4rem !important;
 }
