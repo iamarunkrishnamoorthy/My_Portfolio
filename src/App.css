@@ -163,7 +163,7 @@ nav ul li {
 
 .about {
     margin-top: 170px;
-    margin-bottom: 175px;
+    margin-bottom: 190px;
 }
 
 .my_logo {
@@ -176,7 +176,7 @@ nav ul li {
 }
 
 .padding-size {
-  padding: 4rem !important;
+  padding: 3rem !important;
 }
 
 /* ********************************** Education ****************************************** */
@@ -186,10 +186,48 @@ nav ul li {
   background: url(pencil.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 110vh;
 
 }
 
 .edu {
   padding-top: 175px !important;
+}
+
+.box {
+  margin-left: 25px;
+}
+
+.corner {
+  border-radius: 1rem !important;
+  padding-top: 15px;
+  padding-left: 25px !important;
+  text-align: center;
+}
+
+
+/* ********************************** Work Experience ****************************************** */
+
+.work-wraper {
+  position: relative;
+  background: url(wranch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+.Experience {
+  color: var(--primary-white) !important;
+  position: absolute !important;
+  justify-content: center !important;
+  top: 39%;
+  left: 30%;
+  margin: -25px 0 0 -25px;
+  width: 700px;
+
+}
+
+.Experience > h1 {
+  text-align: center;
 }
