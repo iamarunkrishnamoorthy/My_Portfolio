@@ -44,6 +44,8 @@
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-red: #ef4035;
+  --primary-lightred: #f8f5f1;
+  --primary-lowred: #ff4b5a;
 }
 
 body {
@@ -213,7 +215,7 @@ nav ul li {
   background: url(wranch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 110vh;
 
 }
 
@@ -230,4 +232,202 @@ nav ul li {
 
 .Experience > h1 {
   text-align: center;
+}
+
+/* ********************************** Social Media****************************************** */
+
+.social-wraper {
+  position: relative;
+  background: url(sky.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+
+}
+.envelope {
+  position:absolute;
+  top: 35%;
+  left: 50%;
+  cursor: pointer;
+}
+.rounded-circle {
+  border-radius: 50%;
+}
+.padding-circle {
+  padding: 3rem;
+}
+.circle {
+  background-color: var(--primary-red);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.circle-glow{
+  animation: glowing 1s infinite;
+}
+.circle-default {
+  background-color: var(--primary-red);
+  color: var(--primary-lightred);
+}
+.circle-primary {
+  background-color:
+    var(--primary-lightred);
+  color: #000;
+}
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px #f8f5f1; }
+  40% { box-shadow: 0 0 20px #f8f5f1; }
+  60% { box-shadow: 0 0 20px #f8f5f1; }
+  100% { box-shadow: 0 0 -10px #f8f5f1; }
+}
+.circle-glow {
+  animation: glowing 1s infinite;
+}
+
+.cancel {
+  margin-top: 1%;
+  margin-left: 90%;
+}
+
+/* ********************************** socail ****************************************** */
+
+.cancel-icon {
+  margin-left: 90%;
+  cursor: pointer;
+  
+ 
+}
+.cancel-icon:hover {
+  background-color: #1b2021;
+}
+
+.social-wraper{
+  background-image: url(sky.jpg);
+  height: 100vh;
+}
+
+.form_contact_us{
+  background-color: #fff;
+  width: 1180px !important;
+  height: 650px !important;
+  margin-bottom: 25px;
+  position: relative;
+  line-height: 2;
+  padding: 82px 180px 33px 180px !important;
+  border-radius: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.cancel-button {
+  margin-left: 900px;
+  margin-top: 0px;
+}
+.input-box {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #fff;
+  outline: none;
+  padding-bottom: 15px;
+  
+
+}
+
+/* ********************************** button ****************************************** */
+
+.btn-color{
+  color: #fff;
+  background-color: #ff4b5a !important;
+  border-color: #ff4b5a !important;
+  border-radius: 50px !important;
+  width: 150px;
+  height: 45px;
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+.btn-color:hover {
+
+  background-color: #1b2021 !important;
+  border-color: #1b2021 !important;
+  
+}
+
+
+/* ********************************** forms ****************************************** */
+
+.socail-heading {
+  font-weight: bold;
+  font-size: 39px;
+  font-family: Poppins-Bold;
+  padding-bottom: 25px;
+}
+
+.social-name {
+  padding-bottom: 65px;
+}
+
+.input-title {
+  color: #999999;
+  border-bottom: solid 2px #d9d9d9 !important;
+}
+
+/* ********************************** input-box ****************************************** */
+
+
+.input-box {
+  color: #1b2021;
+}
+
+::placeholder {
+  color: #555555;
+  font-size: 18px;
+  background: transparent;
+  
+}
+
+/* ********************************** social media ****************************************** */
+
+
+.socail-container{
+  background-color:darkorange;
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 87%;
+  left: 38%;
+  
+}
+
+
+.fb-icon {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+
+
+.ig-icon {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+
+.yt-icon {
+  position: absolute;
+  top: 20%;
+  left: 75%;
 }

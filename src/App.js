@@ -6,6 +6,9 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Education from "./components/Education";
 import Work from "./components/Work";
+import Social from "./components/Social";
+
+
 
 function App() {
   return (
@@ -36,6 +39,8 @@ function App() {
       <About />
       <Education />
       <Work />
+      <Social />
+      
     </div>
   );
 }
